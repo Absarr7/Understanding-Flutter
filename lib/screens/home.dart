@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:practice_app/learn_flutter.dart';
-import 'package:practice_app/login.dart';
+import 'package:practice_app/screens/learn_flutter.dart';
+import 'package:practice_app/screens/login.dart';
 import 'package:practice_app/utils/routes.dart';
+import 'package:practice_app/widgets/drawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -9,9 +10,10 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
-      ),
+      appBar: AppBar(),
+      drawer: const Mydrawer(),
+
+      // BODY
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,

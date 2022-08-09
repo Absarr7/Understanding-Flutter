@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:practice_app/home.dart';
+import 'package:practice_app/screens/home.dart';
 import 'package:practice_app/utils/routes.dart';
 import 'package:form_field_validator/form_field_validator.dart';
 
@@ -31,10 +31,7 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
-        title: const Text('Signup'),
-      ),
+      appBar: AppBar(),
       body: SingleChildScrollView(
         child: Form(
           autovalidateMode: AutovalidateMode.onUserInteraction,
@@ -103,8 +100,7 @@ class _LoginState extends State<Login> {
                             errorText:
                                 "Password should have less than 15 characters"),
                         PatternValidator(r'(?=.*?[#?!@$%^&*-])',
-                            errorText:
-                                'Please make a stronger Password')
+                            errorText: 'Please make a stronger Password')
                       ]),
                     ),
 
