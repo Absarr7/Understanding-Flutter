@@ -1,9 +1,9 @@
 {
-    "items": [
+    "products": [
         {
             "id": 1,
             "name": "Iphone 12 Pro",
-            "desc": "Mehenga wala phone",
+            "desc": "Apple Iphone 12th Generation",
             "price": 999,
             "color": "#12ffff",
             "image": "https://m.media-amazon.com/images/I/71umuN8XVeL.jpg"
@@ -31,6 +31,14 @@
             "price": 699,
             "color": "#12ffff",
             "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-iphone-11-pro-space-gray-2019?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1611101539000"
+        },
+        {
+            "id": 5,
+            "name": "Samsung Galaxy s22",
+            "desc": "Samsung's Flagship phone",
+            "price": 499,
+            "color": "#425324",
+            "image": "https://images.samsung.com/is/image/samsung/p6pim/latin_en/2202/gallery/latin-en-galaxy-s22-s901-412946-sm-s901ezgjgto-530964486?$650_519_PNG$"
         }
     ]
 }
